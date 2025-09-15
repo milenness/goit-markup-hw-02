@@ -43,12 +43,11 @@ body {
     color: #404bbf;
 }
 
-.contacts:active {
+.contacts:focus {
     color: #404bbf;
 }
 
-.menu,
-.menu-studio {
+.menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -57,34 +56,44 @@ body {
     text-decoration: none;
 }
 
-menu:hover,
-.menu-studio:hover {
+menu:hover {
     color: #404bbf;
 }
 
-.menu-studio:active {
+.menu:focus {
     color: #404bbf;
-    text-decoration: underline;
+}
+
+.section-title {
+    background-color: #2e2f42;
 }
 
 .title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #ffffff;
 }
 
-button {
-    background-color: var(--iris);
+.button {
+    background-color: #4D5AE5;
     justify-content: flex-start;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #ffffff;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 .section-team {
