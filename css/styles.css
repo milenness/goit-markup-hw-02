@@ -1,13 +1,11 @@
 .body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    color: var(--slate);
-    background-color: var(--white);
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .logo-section {
-    width: 1440px;
-    height: 600px;
     background: var(--navy-blue);
 }
 
@@ -66,17 +64,8 @@ menu:hover,
 }
 
 button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: var(--iris);
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -99,7 +88,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .section-descr {
@@ -107,23 +96,21 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
 .footer-section {
-    width: 1440px;
-    height: 312px;
-    background: var(--navy-blue);
+    background: #2e2f42;
 }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: #4d5ae5;
     text-decoration: none;
 }
 
@@ -132,5 +119,5 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #F4F4FD;
 }
