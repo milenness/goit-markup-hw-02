@@ -1,8 +1,7 @@
 .body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     font-optical-sizing: auto;
-    color: var(--navy-blue);
-    ;
+    color: var(--slate);
 }
 
 .logo {
@@ -15,7 +14,6 @@
     text-transform: uppercase;
     color: var(--navy-blue);
     text-decoration: none;
-    ;
 }
 
 .contacts {
@@ -24,9 +22,29 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--navy-blue);
+    color: var(--slate);
 }
 
 .contacts:hover {
+    font-weight: 400;
     color: var(--ocean);
+}
+
+.menu,
+.menu-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+
+menu:hover,
+.menu-studio:hover {
+    color: var(--ocean);
+}
+
+.menu-studio:active {
+    text-decoration: underline;
 }
